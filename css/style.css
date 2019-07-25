@@ -53,6 +53,7 @@ h2{
   background-color: #2c3b52;
 }
 
+/*text on pics*/
 .container {
   position: relative;
   text-align: left;
@@ -72,9 +73,29 @@ h2{
 
 .links {  position: absolute;
   top: 8px;
-  left: 16px;}
+  left: 16px;
+}
 
+  .container3 {
+    position: relative;
+    text-align: left;
+    color: #2c3b52;
 
+  }
+
+  .events {
+    position: absolute;
+    top: 8px;
+    left: 16px;}
+
+/*opacity*/
+
+img {
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+}
+
+/*footer*/
 
 footer{
   text-align: center;
