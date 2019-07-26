@@ -100,3 +100,20 @@ img {
 footer{
   text-align: center;
 }
+
+/*media queries*/
+
+@media screen and (maz-width: 480px) {
+
+  h1 {
+    font-size: 30px;
+  }
+  footer {
+
+  }
+
+  nav {
+  float:none;
+  width: 100%;
+  }
+}
