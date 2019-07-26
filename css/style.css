@@ -91,7 +91,11 @@ footer{
 
 @media screen and (max-width: 480px)
  {
+   body {
 
+     background-color: green;
+     
+   }
    h1{
      font-size:40px;
    }
@@ -99,7 +103,6 @@ footer{
    nav{
      float:none;
      width:100%;
-
      }
 
     footer{
