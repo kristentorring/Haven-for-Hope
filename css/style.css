@@ -1,4 +1,8 @@
 
+head {
+  float: left;
+}
+
 header{
   padding:0px;
   margin: 0 auto;
@@ -44,6 +48,7 @@ li a {
   padding: 40px;
   background-color: #2c3b52;
   font: Arial Black;
+  text-align: center;
   font-weight: 300;
   font-size: 25px;
   color: #f8cc6d;}
@@ -70,7 +75,7 @@ h2{
 
 /*opacity*/
 
-img {
+.images {
   opacity: 0.4;
   filter: alpha(opacity=50);
 }
