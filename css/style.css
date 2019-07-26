@@ -103,10 +103,10 @@ footer{
 
 /*media queries*/
 
-@media screen and (maz-width: 480px) {
+@media screen and (max-width: 480px) {
 
   h1 {
-    font-size: 80px;
+    font-size: 30px;
   }
   footer {
     display: block;
