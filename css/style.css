@@ -1,6 +1,5 @@
 
 header{
-  float: left;
   padding:0px;
   margin: 0 auto;
 }
@@ -27,7 +26,7 @@ h1 {
   font-size: 80px;
   color: #f8cc6d;
   padding: 0px;
-  margin-top: 50px;
+
 }
 /* Navigation */
 nav{
@@ -55,43 +54,19 @@ h2{
   color: #f8cc6d;
 }
 
-/*text on pics*/
-.container {
-  position: relative;
-  text-align: left;
-  width: 33.3%
-}
-.mission {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
+/*columns*/
+.col-container {
+  display: table;
+  height: 300;
+  width: 300;
 
-.container2 {
-  position: relative;
-  text-align: left;
-  color: #2c3b52;
-  width: 33.3%
+}
+.col {
+  display: table-cell;
+  padding: 0px;
 
 }
 
-.links {  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-  .container3 {
-    position: relative;
-    text-align: left;
-    color: #2c3b52;
-    width:33.3%;
-
-  }
-
-  .events {
-    position: absolute;
-    top: 8px;
-    left: 16px;}
 
 /*opacity*/
 
@@ -111,10 +86,10 @@ footer{
 @media screen and (max-width: 480px) {
 
   h1 {
-    font-size: 80px;
+    font-size: 30px;
   }
   footer {
-    
+
   }
 
   nav {

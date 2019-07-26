@@ -1,0 +1,48 @@
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 5px;
+}
+
+
+<div class="container">
+  <div class="col" style="background: #cbe4e8">
+      <h2>Mission Statement</h2>
+    <p>Our mission is to offer a place of hope and new beginnings. We do this by providing,
+coordinating and delivering an efficient system of care for people experiencing
+homelessness.</p>
+  </div>
+
+  <div class="col" style="background: #cbe4e8">
+    <h2>Haven in the News</h2>
+    <p><a href="https://www.kens5.com/article/news/san-antonio-handles-homeless-better-than-austin-texas-governor-says/273-37fa5995-98a4-41d9-9549-268ef4831933"> San Antonio Handles Homeless Better than Austin </a></p>
+    <p><a href="https://therivardreport.com/haven-for-hope-merits-greater-public-funding/">Haven for Hope Merits Greater Public Funding</a> </p>
+    <p><a href="https://www.ksat.com/news/haven-for-hope-brings-outreach-program-to-homeless-people-beyond-city-limits">Haven for Hope brings outreach program to homeless people beyond city limits</a></p>
+  </div>
+
+  <div class="col" style="background: #cbe4e8">
+    <h2>Upcoming Events</h2>
+    <p>
+      <table style="width:100%">
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>Back to School Bash </td>
+          <td>August 3</td>
+        </tr>
+        <tr>
+          <td>Food and Clothing Drive </td>
+          <td>September 10</td>
+        </tr>
+        <tr>
+          <td>Ho Ho Hope for the Holdays Dinner</td>
+          <td>December 5</td>
+      </table>
+    </p>
+  </div>
+</div>
