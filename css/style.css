@@ -51,16 +51,15 @@ li a {
 
 
 h2{
-  display: block;
   font-size: 20px;
   color: #f8cc6d;
-  background-color: #2c3b52;
 }
 
 /*text on pics*/
 .container {
   position: relative;
   text-align: left;
+  width: 33.3%
 }
 .mission {
   position: absolute;
@@ -72,6 +71,7 @@ h2{
   position: relative;
   text-align: left;
   color: #2c3b52;
+  width: 33.3%
 
 }
 
@@ -84,6 +84,7 @@ h2{
     position: relative;
     text-align: left;
     color: #2c3b52;
+    width:33.3%;
 
   }
 
@@ -113,7 +114,7 @@ footer{
     font-size: 80px;
   }
   footer {
-    display: inline-block;
+    
   }
 
   nav {
