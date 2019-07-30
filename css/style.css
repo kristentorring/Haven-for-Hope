@@ -81,7 +81,7 @@ h2{
 
 /*opacity*/
 
-.imgs {
+.images {
   opacity: 0.4;
   filter: alpha(opacity=50);
 }
@@ -120,7 +120,7 @@ li a {
   width: 100%;
 }
 
- .imgs {
+ .images {
    max-width=100%;
  }
 
