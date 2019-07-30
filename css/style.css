@@ -94,17 +94,17 @@ footer{
 }
 
 .button-submit {
-  background: transparent;
+  background: #2c3b52;
   border: 4px solid #2c3b52;
-  border-radius: 6px;
+  border-radius: 3px;
   color: #f8cc6d;
   cursor: pointer;
   display: block;
   font-size: 20px;
   font-weight: bold;
-  margin: 0 auto 60px;
+  margin: 0 auto 40px;
   padding: 1em 2em;
-  text-align: center; 
+  text-align: center;
 }
 /*media queries*/
 
