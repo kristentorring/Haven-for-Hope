@@ -102,8 +102,7 @@ footer{
   display: block;
   font-size: 20px;
   font-weight: bold;
-  margin: 0 auto 40px;
-  padding: 1em 2em;
+  margin: 0 auto 30px;
   text-align: center;
 }
 /*media queries*/
